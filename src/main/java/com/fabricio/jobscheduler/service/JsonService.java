@@ -21,7 +21,7 @@ public class JsonService {
 		json = json.replaceAll("(?<=: ?)(?![ \\{\\[])(.+?)(?=,|})", "\"$1\"");
 		
 		// Remove all single quotes
-		json = json.replace("'", "");
+		json = json.replace("'", "\"");
 		
 		// Remove duplicated double quotes
 		do {
