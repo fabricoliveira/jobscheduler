@@ -23,7 +23,7 @@ Para executar ou debugar o programa, você deve rodar como "Spring Boot App"
 
 #### ATENÇÃO:
 ##### - As chaves ID, Descrição, Data Máxima de conclusão e Tempo estimado, devem estar dentro das aspas duplas.
-##### - Todas as aspas simples serão removidas.
+##### - O sistema não aceita aspas simples. Realize a remoção das aspas simples do seu Json, antes de rodar o programa.
 \
 O programa apresentará como resultado um Array contendo Arrays de Inteiros, com o seguinte formato:
 
