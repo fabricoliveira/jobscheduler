@@ -57,8 +57,8 @@ Cada array interno, estará organizado de forma que as somas do Tempo de Execuç
 - O programa foi desenvolvido com o Spring Boot na versão 2.3.1.
 - O programa foi desenvolvido com o Java na versão 11.
 - O programa funciona somente com as versões do Java 8 e posteriores.
-- Caso você necessite utilizar a versão, o arquivo pom.xml localizado na pasta raíz do projeto, 
-  deve ser o trecho abaixo e mudar o número 11 para a versão desejada:
+- Caso você necessite utilizar outra versão do Java, você deve alterar no arquivo pom.xml, localizado na pasta raíz do projeto, 
+  o trecho abaixo e trocar o número 11 para a versão desejada:
 
         <properties>
             <java.version>11</java.version>
